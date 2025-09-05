@@ -12,7 +12,6 @@ MODEL_URL = "https://github.com/zahratalitha/101makanan/blob/894c65365b77386eda8
 MODEL_PATH = "cnn_food101_model_full (1).h5"
 
 CLASS_URL = "https://raw.githubusercontent.com/zahratalitha/101makanan/main/class.txt"
-"    # ganti username & repo
 CLASS_PATH = "class.txt"
 
 def download_file(url, filename):
