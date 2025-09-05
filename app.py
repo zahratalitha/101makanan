@@ -11,7 +11,8 @@ import requests, os
 MODEL_URL = "https://github.com/zahratalitha/101makanan/blob/894c65365b77386eda858b5856075b3d34672a11/cnn_food101_model_full%20(1).h5"
 MODEL_PATH = "cnn_food101_model_full (1).h5"
 
-CLASS_URL = "https://github.com/username/repo/raw/main/class_names.txt"    # ganti username & repo
+CLASS_URL = "https://raw.githubusercontent.com/zahratalitha/101makanan/main/class.txt
+"    # ganti username & repo
 CLASS_PATH = "class.txt"
 
 def download_file(url, filename):
